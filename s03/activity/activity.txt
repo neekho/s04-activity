@@ -1,0 +1,50 @@
+Activity Instructions (queryDB)
+
+	Add 5 courses in a new courses collection in the queryDB database with the following details:
+
+	name : "HTML Basics"
+	price - 20000
+	isActive - true
+	instructor - "Sir Alvin"
+
+	name - "CSS 101 + Flexbox"
+	price - 21000
+	isActive - true
+	instructor - "Sir Alvin"
+
+	name - "Javascript 101"
+	price - 32000
+	isActive - true
+	instuctor - "Ma'am Tine"
+
+	name - "Git 101, IDE and CLI"
+	price - 19000
+	isActive - false 
+	instuctor - "Ma'am Tine"
+	
+	name - "React.Js 101"
+	price - 25000
+	isActive - true
+	instructor - "Ma'am Miah"
+
+	Find courses whose instructor is "Sir Alvin" and is priced greater than or equal to 20000
+		-show only its name and price
+
+	Find courses whose instructor is "Ma'am Tine" and is inactive.
+		-show only its name and price
+
+	Find courses with letter 'r' in its name and has a price lower than or equal to 25000
+
+	Update all courses with price less than 21000 to inactive.
+
+	Delete all courses with price greater than or equal to 25000.
+
+	//Add all of your query/commands here in activity.js
+	
+	Pushing Instructions:
+
+	Create a git repository named s04.
+
+	Initialize a local git repository, add the remote link and push to git with the commit message of Add activity code.
+
+	Add the link in Canvas.
